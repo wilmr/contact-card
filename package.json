@@ -24,5 +24,9 @@
 	"homepage": "https://github.com/wilmr/contact-card#readme",
 	"dependencies": {
 		"concurrently": "^7.6.0"
-	}
+	},
+	"engines": {
+		"node": "16.14"
+	},
+	"heroku-prebuild": "npm install --dev"
 }
